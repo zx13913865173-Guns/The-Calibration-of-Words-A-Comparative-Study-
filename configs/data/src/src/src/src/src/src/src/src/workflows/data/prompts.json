@@ -1,0 +1,72 @@
+{
+  "Person": [
+    {"prompt": "a young woman walking through a dense green forest on a sunny morning", "target": "woman"},
+    {"prompt": "an old man reading an interesting book in a quiet library by himself", "target": "man"},
+    {"prompt": "a little girl playing with a red ball in the park near her home", "target": "girl"},
+    {"prompt": "a tall boy riding a bicycle on a sunny street in the afternoon", "target": "boy"},
+    {"prompt": "a smiling woman holding a cup of coffee in a small cafe", "target": "woman"},
+    {"prompt": "a bearded man standing near a wooden door in an old house", "target": "man"},
+    {"prompt": "a young girl drawing a colorful picture on a white paper with a pencil", "target": "girl"},
+    {"prompt": "a teenage boy listening to music with large headphones in his room", "target": "boy"},
+    {"prompt": "a woman wearing a blue dress in a beautiful garden on a summer day", "target": "woman"},
+    {"prompt": "a man with glasses reading a newspaper at a wooden table in a cafe", "target": "man"},
+    {"prompt": "a child running happily along a sandy beach near the ocean on a sunny day", "target": "child"},
+    {"prompt": "a woman sitting on a bench in a quiet park at sunset", "target": "woman"}
+  ],
+  "Animal": [
+    {"prompt": "a brown dog running across a green field with tall grass in the morning", "target": "dog"},
+    {"prompt": "a black cat sitting quietly on a wooden fence in the backyard", "target": "cat"},
+    {"prompt": "a white rabbit hopping through a garden full of flowers early in the morning", "target": "rabbit"},
+    {"prompt": "a small bird singing on a branch of a tall tree in the forest", "target": "bird"},
+    {"prompt": "a golden fish swimming slowly in a clear blue aquarium with green plants", "target": "fish"},
+    {"prompt": "a large elephant walking across a dry dusty savanna under the hot sun", "target": "elephant"},
+    {"prompt": "a gray wolf howling at the full moon in the night in the forest", "target": "wolf"},
+    {"prompt": "a red fox running quickly through a snowy forest in winter in the morning", "target": "fox"},
+    {"prompt": "a small turtle crawling on a sandy beach near the water under the sun", "target": "turtle"},
+    {"prompt": "a brown horse galloping across an open field with green grass in the afternoon", "target": "horse"},
+    {"prompt": "a colorful butterfly resting on a yellow flower in a garden on a sunny day", "target": "butterfly"},
+    {"prompt": "a black and white panda eating bamboo in a green forest in the mountains", "target": "panda"}
+  ],
+  "Architecture": [
+    {"prompt": "a modern glass building with blue sky background in the city during the day", "target": "building"},
+    {"prompt": "a small stone house near a river with clear water in the countryside", "target": "house"},
+    {"prompt": "a tall wooden tower standing on a green hill under a cloudy sky", "target": "tower"},
+    {"prompt": "an old brick church with a tall bell tower in a small village", "target": "church"},
+    {"prompt": "a white marble palace with many large windows surrounded by trees and fountains", "target": "palace"},
+    {"prompt": "a concrete bridge crossing a wide river in the city at night", "target": "bridge"},
+    {"prompt": "a red brick library with a large entrance and columns on a quiet street", "target": "library"},
+    {"prompt": "a wooden cabin with a smoking chimney in the forest during winter", "target": "cabin"},
+    {"prompt": "a glass skyscraper reflecting the sun in a busy downtown during the day", "target": "skyscraper"},
+    {"prompt": "a stone castle with high walls on a rocky cliff near the sea", "target": "castle"},
+    {"prompt": "a small cottage with a green roof in a quiet village near a river", "target": "cottage"},
+    {"prompt": "a modern museum with a curved roof and large windows in the city center", "target": "museum"}
+  ],
+  "Plant": [
+    {"prompt": "a red rose blooming in a garden full of sunlight during spring", "target": "rose"},
+    {"prompt": "a tall sunflower standing under the bright summer sun in a field", "target": "sunflower"},
+    {"prompt": "a green fern growing near a small waterfall in the forest in the shade", "target": "fern"},
+    {"prompt": "a purple lavender field stretching to the horizon under blue sky on a warm day", "target": "lavender"},
+    {"prompt": "a white daisy growing on a green grassy hill near a tree in the morning", "target": "daisy"},
+    {"prompt": "a large oak tree with many green leaves in a park during summer", "target": "oak"},
+    {"prompt": "a pink cherry blossom tree in full bloom during spring in a garden", "target": "cherry"},
+    {"prompt": "a yellow tulip standing alone in a small clay pot on a windowsill", "target": "tulip"},
+    {"prompt": "a green cactus with sharp spines in a dry desert under the hot sun", "target": "cactus"},
+    {"prompt": "a red maple leaf falling from a tall tree in autumn in the forest", "target": "leaf"},
+    {"prompt": "a white lotus flower floating on a calm pond with green leaves", "target": "lotus"},
+    {"prompt": "a blue hydrangea bush with many small flowers in a garden in the summer", "target": "hydrangea"}
+  ],
+  "Object": [
+    {"prompt": "a wooden chair placed near a window in a bright room in the morning", "target": "chair"},
+    {"prompt": "a silver watch lying on a marble table in the sunlight in the afternoon", "target": "watch"},
+    {"prompt": "a black umbrella standing in a corner of a small room near the door", "target": "umbrella"},
+    {"prompt": "a red book lying open on a wooden desk near a lamp in a library", "target": "book"},
+    {"prompt": "a glass bottle filled with clear water on a table in the kitchen", "target": "bottle"},
+    {"prompt": "a leather bag sitting on a chair near the door in a hallway", "target": "bag"},
+    {"prompt": "a metal key resting on a wooden shelf in a room near a window", "target": "key"},
+    {"prompt": "a white candle burning on a small table in the dark at night", "target": "candle"},
+    {"prompt": "a blue pen lying next to a notebook on a desk in an office", "target": "pen"},
+    {"prompt": "a brown wallet placed on a glass table in a room near a phone", "target": "wallet"},
+    {"prompt": "a green plant pot sitting on a wooden floor near a sofa in a living room", "target": "pot"},
+    {"prompt": "a silver spoon resting on a white plate on a table in the kitchen", "target": "spoon"}
+  ]
+}
