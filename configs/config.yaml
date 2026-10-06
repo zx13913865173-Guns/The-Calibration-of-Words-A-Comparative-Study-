@@ -1,0 +1,76 @@
+project:
+  name: paper2-weight-syntax
+  seed: 42
+
+models:
+  sdxl: "stabilityai/stable-diffusion-xl-base-1.0"
+  sd35: "stabilityai/stable-diffusion-3.5-large"
+  flux: "black-forest-labs/FLUX.1-dev"
+  clip: "openai/clip-vit-large-patch14"
+  dino: "facebook/dinov2-large"
+
+generation:
+  steps: 30
+  cfg_main: 7.5
+  cfg_list: [3.0, 7.5, 15.0]
+  negative_prompt: "low quality, blurry, distorted, ugly, bad anatomy"
+  width: 1024
+  height: 1024
+
+syntax:
+  sd_native:
+    increase: "(word)"
+    decrease: "[word]"
+    factor_up: 1.1
+    factor_down: 0.9
+  comfyui:
+    format: "(word:{value})"
+  novelai:
+    increase: "{word}"
+    decrease: "[word]"
+    factor_up: 1.05
+    factor_down: 0.95
+
+weight_levels:
+  W1: {sd: 0.81, comfy: 0.2, novelai: 0.90}
+  W2: {sd: 0.90, comfy: 0.5, novelai: 0.95}
+  W3: {sd: 1.10, comfy: 1.0, novelai: 1.05}
+  W4: {sd: 1.21, comfy: 1.5, novelai: 1.10}
+  W5: {sd: 1.33, comfy: 2.0, novelai: 1.16}
+
+experiments:
+  main:
+    prompts: 60
+    levels: [W1, W2, W3, W4, W5]
+    syntaxes: [sd_native, comfyui, novelai]
+    images: 900
+  ablation:
+    prompts: 15
+    levels: [W1, W2, W3, W4, W5]
+    levels_ablation: [L0, L1, L2, L3, L4]
+    images: 375
+  two_word:
+    prompts: 15
+    levels: [W1, W2, W3, W4, W5]
+    syntaxes: [sd_native, comfyui, novelai]
+    images: 225
+  migration:
+    prompts: 10
+    directions: 4
+    strategies: 2
+    images: 80
+  generalization:
+    prompts: 10
+    levels: [W1, W3, W5]
+    syntaxes: [sd_native, comfyui, novelai]
+    models: [sd35, flux]
+    images: 180
+  nonlinear:
+    prompts: 10
+    levels: [W1, W2, W3, W4, W5]
+    mappings: [linear, squared, sqrt]
+    images: 150
+  calibration:
+    references: 4
+    candidates: 10
+    images: 40
